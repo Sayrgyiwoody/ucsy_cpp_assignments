@@ -66,7 +66,7 @@ int main() {
 
             default:
             cout << "Invalid try again!";
-            break;
+            continue;
         }
         cout << "Answer = " << result.top << slash << result.base << endl;
         cout << "Do you want to continue (y/n) = ";
