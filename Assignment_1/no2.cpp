@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    int num = 10;
-    cout << "Original number = " << num << endl;
-    num += num;
-    cout << "Number after increment = " << num << endl;                                            
-    cout << "Number after predecrement = " << --num << endl;
-                                                                       
-    return 0;                                                                                                    
+int main()
+{
+    const int num1 = 10;
+    int num2 = num1 + 10;
+    int num3 = --num2;
+
+    cout << num1 << " " << num2 << " " << num3 << endl;
+
+    return 0;
 }
