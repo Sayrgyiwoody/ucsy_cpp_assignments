@@ -7,7 +7,7 @@ int main () {
 
     cout << "Enter number of gallons = ";
     cin >> numOfGal ;
-    equivalent = numOfGal * gallonsPerCB ;
+    equivalent = numOfGal / gallonsPerCB ;
     cout << "Equivalent for " << numOfGal << " gallons = " << equivalent ;
     
     return 0;
