@@ -8,8 +8,8 @@ struct Time {
     int seconds;
 };
 
-long times_to_seconds(Time d1,Time d2) {
-    return (d1.hours * 3600 + d1.minutes * 60 + d1.seconds ) + (d2.hours * 3600 + d2.minutes * 60 + d2.seconds ); 
+long times_to_seconds(Time t1,Time t2) {
+    return (t1.hours * 3600 + t1.minutes * 60 + t1.seconds ) + (t2.hours * 3600 + t2.minutes * 60 + t2.seconds ); 
 }
 
 Time seconds_to_time(long s) {
