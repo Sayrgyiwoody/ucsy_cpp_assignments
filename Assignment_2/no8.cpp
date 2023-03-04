@@ -8,7 +8,7 @@ int main () {
     cout << "Enter the number of chairs = ";
     cin >> num_chair;
     while (num_guest>num_chair) {
-        for (i=num_guest;i>(num_guest - num_chair);i--) {
+        for (i=(num_guest-num_chair);i<num_guest;i++) {
             possibility *= i ;
         }
     cout << "The number of possible arrangements for guests = " << possibility << endl ;
