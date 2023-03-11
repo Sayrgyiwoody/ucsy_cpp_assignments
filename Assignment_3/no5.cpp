@@ -12,7 +12,7 @@ double powerNum(double n,int p = 2){
 
 long powerNum(long n,int p = 2){
     long result = 1;
-    for (double i= 1;i<=p;i++) {
+    for (long i= 1;i<=p;i++) {
         result *= n;
     }
     return result;
