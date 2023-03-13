@@ -12,7 +12,7 @@ int main() {
     interest_rate /= 100;
     float final_amount = initial;
     for (i = 0; i<years;i++) {
-        final_amount =final_amount + (final_amount*interest_rate);
+        final_amount += (final_amount*interest_rate);
     }
     cout << "At the end of 10 years , you will have " << final_amount<< " dollars.";
     return 0;
